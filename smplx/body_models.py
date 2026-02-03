@@ -924,7 +924,7 @@ class SMPLX(SMPLH):
         gender: str = 'neutral',
         age: str = 'adult',
         dtype=torch.float32,
-        ext: str = 'npz',
+        ext: str = 'pkl',
         **kwargs
     ) -> None:
         ''' SMPLX model constructor
